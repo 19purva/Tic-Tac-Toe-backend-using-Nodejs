@@ -44,6 +44,13 @@ Connection String : MONGO_URI=mongodb://localhost:27017/
 <strong>7.To run backend</strong>  
 nodemon server.js
 
-
+# Output
   
-
+![Image](https://github.com/user-attachments/assets/ce5cfbb2-b4d2-4218-9e6b-39a0ea1f965e)
+![Image](https://github.com/user-attachments/assets/19f5a112-5216-4bab-bd6c-d650cf3d3cf6)
+![Image](https://github.com/user-attachments/assets/6935ae1c-5b57-45ea-be15-ebc4cf73865d)
+![Image](https://github.com/user-attachments/assets/019ad35f-1250-422c-a6fc-1d982b42f024)
+![Image](https://github.com/user-attachments/assets/ac56d8f4-ce5b-4c8a-9c4e-43855a60f8a7)
+![Image](https://github.com/user-attachments/assets/039da752-fcda-442e-ad1c-f481cf2b5c69)
+![Image](https://github.com/user-attachments/assets/95d149ed-2b08-4e25-ae2f-c44f7bea1e8d)
+![Image](https://github.com/user-attachments/assets/b15ec058-e5c8-4357-8c3f-56fb44f96c2b)
