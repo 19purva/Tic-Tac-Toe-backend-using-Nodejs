@@ -34,7 +34,7 @@ npm install express mongoose bcryptjs jsonwebtoken dotenv cors body-parser
 5.Connect with MongoDB compass </strong>
 Connection String : MONGO_URI=mongodb://localhost:27017/
 
-<strong> 6.You can test the API using Postman with the following routes.   </strong> 
+<strong> 6.You can test the API using Postman with the following routes.   </strong>  
 1.<strong> User Registration : </strong> Method:POST , URL :http://localhost:4000/auth/register  
 2. <strong>Login :</strong> Method: POST , URL: http://localhost:5000/api/login  
 3. <strong> Start Game : </strong> Method:POST , URL :http://localhost:4000/game/start  
