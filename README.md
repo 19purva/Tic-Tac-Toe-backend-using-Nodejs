@@ -36,10 +36,10 @@ Connection String : MONGO_URI=mongodb://localhost:27017/
 
 <strong> 6.You can test the API using Postman with the following routes.   </strong>  
 1.<strong> User Registration : </strong> Method:POST , URL :http://localhost:4000/auth/register  
-2. <strong>Login :</strong> Method: POST , URL: http://localhost:5000/api/login  
+2. <strong>Login :</strong> Method: POST , URL: http://localhost:4000/auth/login  
 3. <strong> Start Game : </strong> Method:POST , URL :http://localhost:4000/game/start  
 4.<strong> Make Move: </strong> Method:POST , URL : http://localhost:4000/game/move  
-5.<strong> Get Game History : </strong> Method:GET, URL: http://localhost:4000/game/history/678f9244dea39c39fd3b146d
+5.<strong> Get Game History : </strong> Method:GET, URL: http://localhost:4000/game/history/{userID}
 
 <strong>7.To run backend</strong>  
 nodemon server.js
