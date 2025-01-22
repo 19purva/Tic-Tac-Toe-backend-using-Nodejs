@@ -30,17 +30,10 @@ You will need the following packages:
 <strong>dotenv:</strong> To manage environment variables.  
 <strong>cors:</strong> To enable cross-origin requests (useful for frontend-backend communication).  
 <strong>body-parser: </strong>To parse incoming request bodies.  
-<strong>
 
-4.Install these dependencies:  
-
-</strong>  ```
+<strong>4.Install these dependencies: and connect with database  </strong> 
+```
 npm install express mongoose bcryptjs jsonwebtoken dotenv cors body-parser  
-```
-<strong>
-
-5.Connect with MongoDB compass </strong>  
-```
 Connection String : MONGO_URI=mongodb://localhost:27017/
 
 ```
