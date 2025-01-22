@@ -22,6 +22,14 @@ export const makeMove = async (req, res) => {
             return res.status(400).json({ message: 'Not your turn' });
         }
         game.moves.push({ player: playerId, position });
+        
+        // Highlighted Code: Display the board in the terminal
+        const board = Array(9).fill(null);
+        game.moves.forEach(move => {
+            board[move.position] = move.player.toString();
+        });
+        console.log(`Current Board:\n${board.slice(0, 3).join(' | ')}\n${board.slice(3, 6).join(' | ')}\n${board.slice(6, 9).join(' | ')}`);
+
         // Logic for checking game result goes here
         game.turn = game.players.find(p => !p.equals(playerId));
         await game.save();
