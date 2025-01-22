@@ -7,13 +7,19 @@ Demonstrate your backend development skills by creating a system for a simple Ti
 <strong> 1. Set Up the Project Directory </strong>  
 Create a new directory for your backend project:  
 <strong>
+```
 mkdir backend  
-cd backend  
+cd backend
+```
 </strong>  
 
 <strong> 2. Initialize a Node.js Project </strong>    
 Run the following command to create a package.json file:  
-<strong> npm init -y  </strong>
+<strong> 
+```
+npm init -y
+```
+ </strong>
 <strong>   
 3. Install Required Packages</strong>  
 You will need the following packages:  
@@ -26,14 +32,18 @@ You will need the following packages:
 <strong>body-parser: </strong>To parse incoming request bodies.  
 <strong>
 
-4.Install these dependencies:
-</strong>  
+4.Install these dependencies:  
+
+</strong>  ```
 npm install express mongoose bcryptjs jsonwebtoken dotenv cors body-parser  
+```
 <strong>
 
-5.Connect with MongoDB compass </strong>
+5.Connect with MongoDB compass </strong>  
+```
 Connection String : MONGO_URI=mongodb://localhost:27017/
 
+```
 <strong> 6.You can test the API using Postman with the following routes.   </strong>  
 1.<strong> User Registration : </strong> Method:POST , URL :http://localhost:4000/auth/register  
 2. <strong>Login :</strong> Method: POST , URL: http://localhost:4000/auth/login  
